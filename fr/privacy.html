@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>InterestMe — Politique de confidentialité</title>
-  <meta name="description" content="Politique de confidentialité InterestMe — l'application fonctionne entièrement hors ligne et ne collecte, ne transmet et ne stocke aucune de vos données.">
+  <meta name="description" content="Politique de confidentialité InterestMe — l'application ne collecte aucune de vos données : ce que vous saisissez reste sur votre appareil et dans la sauvegarde de votre téléphone.">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/svg+xml" href="../img/logo.svg">
   <script>
@@ -41,19 +41,20 @@
   <article class="doc-card">
     <header class="doc-header">
       <h1>Politique de confidentialité</h1>
-      <p class="doc-meta">Date d'effet : <time datetime="2026-09-11">11 septembre 2026</time></p>
+      <p class="doc-meta">Date d'effet : <!-- BROUILLON 1.1 (spec 21) : mettre la date de sortie de la 1.1.0. --><time datetime="2026-00-00">[date de sortie de la 1.1.0]</time></p>
       <div class="doc-badges">
-        <span class="badge">Entièrement hors ligne</span>
         <span class="badge">Aucune donnée collectée</span>
         <span class="badge">Aucun compte requis</span>
+        <span class="badge">Aucun suivi</span>
       </div>
     </header>
 
     <p class="lead">
       La présente politique de confidentialité explique comment l'application mobile InterestMe
-      (« l'Application »), publiée par DevOP, traite vos informations. Elle s'applique à la version
-      1.0.0 de l'Application. En résumé : l'Application fonctionne entièrement hors ligne et ne
-      collecte, ne transmet et ne stocke aucune de vos données. Les détails figurent ci-dessous.
+      (« l'Application »), publiée par DevOP, traite vos informations. Elle s'applique à la version
+      1.1.0 de l'Application et aux suivantes. En résumé : l'Application ne collecte aucune de vos
+      données. Ce que vous saisissez reste sur votre appareil, et dans la sauvegarde de votre
+      téléphone si vous en utilisez une. Les détails figurent ci-dessous.
     </p>
 
     <nav class="toc" aria-label="Sommaire">
@@ -62,6 +63,9 @@
         <li><a href="#qui-sommes-nous">Qui sommes-nous</a></li>
         <li><a href="#en-resume">En résumé</a></li>
         <li><a href="#sur-appareil">Données stockées sur votre appareil</a></li>
+        <li><a href="#sauvegardes">Les sauvegardes de votre téléphone</a></li>
+        <li><a href="#achats">Achats (InterestMe Pro)</a></li>
+        <li><a href="#rappels">Rappels</a></li>
         <li><a href="#envoi-volontaire">Informations que vous nous envoyez volontairement</a></li>
         <li><a href="#pas-publicite">Pas de publicité, d'analytics ni de suivi</a></li>
         <li><a href="#liens-tiers">Liens vers des services tiers</a></li>
@@ -84,32 +88,87 @@
     <section id="en-resume">
       <h2><span class="num">2</span>En résumé</h2>
       <ul>
-        <li>L'Application fonctionne entièrement hors ligne et ne se connecte pas à Internet par elle-même.</li>
         <li>Nous ne collectons, ne recevons et ne stockons aucune donnée personnelle sur des serveurs.</li>
-        <li>Pas de compte, pas d'inscription, pas d'analytics, pas de publicité, pas de rapport d'erreur.</li>
-        <li>Tout ce que vous saisissez reste sur votre appareil.</li>
+        <li>Il n'y a ni compte, ni inscription, ni analytics, ni publicité, ni rapport de plantage.</li>
+        <li>Tout ce que vous saisissez reste sur votre appareil, et dans la sauvegarde de votre
+          téléphone (iCloud, votre ordinateur ou Google) si vous en utilisez une.</li>
+        <li>Le code de l'Application ne se connecte pas à Internet. Les seules connexions sont celles
+          de l'App Store ou de Google Play, pour vendre et vérifier l'abonnement facultatif
+          InterestMe Pro.</li>
+        <li>Les rappels de bilan sont des notifications programmées sur votre téléphone ; rien n'est
+          envoyé nulle part.</li>
       </ul>
     </section>
 
     <section id="sur-appareil">
       <h2><span class="num">3</span>Données stockées sur votre appareil</h2>
       <p>
-        L'Application stocke vos saisies uniquement sur votre appareil, dans une base de données et
-        des préférences locales. Cela peut inclure :
+        L'Application enregistre vos saisies uniquement sur votre propre appareil, dans une base de
+        données locale. Il peut s'agir :
       </p>
       <ul>
-        <li>votre prénom, si vous choisissez de le saisir lors de la première ouverture ;</li>
-        <li>vos simulations d'intérêts composés et vos plans d'épargne enregistrés ;</li>
-        <li>vos préférences (devise, format des nombres, apparence).</li>
+        <li>de votre prénom, si vous choisissez de le saisir ;</li>
+        <li>de vos simulations, plans, prêts et comparaisons enregistrés, et de votre budget ;</li>
+        <li>de vos objectifs d'épargne et des montants que vous notez chaque mois ;</li>
+        <li>de votre progression dans Apprendre et des montants que vous y essayez ;</li>
+        <li>de vos préférences (devise, format des nombres, apparence, outils épinglés, rappels) ;</li>
+        <li>du fait que votre abonnement InterestMe Pro était actif ou non lors de la dernière
+          vérification auprès de la boutique.</li>
       </ul>
       <p>
-        Ces données ne quittent jamais votre appareil et ne sont jamais accessibles à nous ni à un
-        tiers. Si vous désinstallez l'Application, ces données sont supprimées avec elle.
+        L'Application n'envoie jamais ces données, ni à nous ni à un tiers. Vous pouvez tout supprimer
+        à tout moment avec <strong>Profil → Réinitialiser les données</strong> (votre abonnement n'est
+        pas concerné), ou en désinstallant l'Application.
+      </p>
+    </section>
+
+    <section id="sauvegardes">
+      <h2><span class="num">4</span>Les sauvegardes de votre téléphone</h2>
+      <p>
+        Si vous sauvegardez votre téléphone, cette sauvegarde contient les données de l'Application,
+        pour qu'elles reviennent sur un nouveau téléphone ou après une réinstallation : la
+        sauvegarde iCloud ou une sauvegarde sur ordinateur sur iPhone et iPad, et la sauvegarde
+        Google sur Android (qui, pour l'Application, ne contient que sa base de données). Ces
+        sauvegardes sont faites par Apple ou Google, avec votre compte chez eux et selon leurs
+        politiques de confidentialité ; nous n'y avons pas accès. Elles ne transfèrent pas les données
+        entre un iPhone et un téléphone Android. Vous pouvez les désactiver dans les réglages de votre
+        téléphone.
+      </p>
+      <p>
+        Une sauvegarde restaurée ne débloque jamais InterestMe Pro à elle seule : l'Application
+        interroge à nouveau la boutique.
+      </p>
+    </section>
+
+    <section id="achats">
+      <h2><span class="num">5</span>Achats (InterestMe Pro)</h2>
+      <p>
+        InterestMe Pro est un abonnement facultatif vendu par l'App Store ou Google Play. L'achat, le
+        paiement et les renouvellements sont entièrement gérés par Apple ou Google, avec votre compte
+        chez eux et selon leurs politiques de confidentialité. Nous ne recevons jamais vos données de
+        paiement, votre nom ni votre adresse e-mail.
+      </p>
+      <p>
+        Pour savoir si Pro est actif, l'Application interroge la boutique sur votre appareil et garde
+        la réponse sur votre appareil. Sur Android, la bibliothèque Google Play Billing incluse dans
+        l'Application se connecte à Google Play pour cela et peut envoyer à Google des informations de
+        diagnostic sur le processus d'achat. Apple et Google nous fournissent des rapports de ventes
+        (par exemple le nombre d'abonnements vendus dans un pays) qui ne vous identifient pas.
+      </p>
+    </section>
+
+    <section id="rappels">
+      <h2><span class="num">6</span>Rappels</h2>
+      <p>
+        Si vous activez les rappels de bilan, l'Application programme des notifications sur votre
+        téléphone. C'est votre téléphone qui les crée et les affiche ; rien n'est envoyé ni à nous ni
+        à un service de notifications. Vous pouvez les désactiver dans le Profil de l'Application ou
+        dans les réglages de votre téléphone.
       </p>
     </section>
 
     <section id="envoi-volontaire">
-      <h2><span class="num">4</span>Informations que vous nous envoyez volontairement</h2>
+      <h2><span class="num">7</span>Informations que vous nous envoyez volontairement</h2>
       <p>
         Si vous utilisez la fonctionnalité d'avis, ou si vous nous écrivez directement à
         <a href="mailto:devop88@proton.me">devop88@proton.me</a>, vous pouvez nous
@@ -125,15 +184,17 @@
     </section>
 
     <section id="pas-publicite">
-      <h2><span class="num">5</span>Pas de publicité, d'analytics ni de suivi</h2>
+      <h2><span class="num">8</span>Pas de publicité, d'analytics ni de suivi</h2>
       <p>
-        Nous n'utilisons ni publicité, ni services d'analytics, ni outils de rapport d'erreur, ni
-        suivi d'aucune sorte. L'Application ne contient aucun traceur ni SDK tiers.
+        Nous n'utilisons ni publicité, ni services d'analytics, ni outils de rapport de plantage, ni
+        suivi d'aucune sorte. L'Application ne contient aucun traceur ni SDK publicitaire tiers. Le
+        seul code tiers qui communique avec un service est la facturation des boutiques décrite
+        ci-dessus.
       </p>
     </section>
 
     <section id="liens-tiers">
-      <h2><span class="num">6</span>Liens vers des services tiers</h2>
+      <h2><span class="num">9</span>Liens vers des services tiers</h2>
       <p>
         L'Application peut ouvrir des liens dans votre navigateur (par exemple, ces pages) ou
         l'application de messagerie de votre appareil. Ces services disposent de leurs propres
@@ -143,7 +204,7 @@
     </section>
 
     <section id="enfants">
-      <h2><span class="num">7</span>Enfants</h2>
+      <h2><span class="num">10</span>Enfants</h2>
       <p>
         L'Application ne s'adresse pas aux enfants. Comme l'Application ne collecte pas de données
         personnelles, nous ne collectons pas non plus sciemment d'informations auprès d'enfants.
@@ -151,20 +212,21 @@
     </section>
 
     <section id="vos-droits">
-      <h2><span class="num">8</span>Vos droits</h2>
+      <h2><span class="num">11</span>Vos droits</h2>
       <p>
-        Selon votre lieu de résidence (par exemple, en vertu du Règlement général sur la protection
-        des données de l'UE), vous pouvez disposer de droits d'accès, de rectification ou de
-        suppression concernant vos données personnelles. Étant donné que l'Application elle-même ne
-        détient aucune donnée personnelle vous concernant, l'exercice de ces droits consiste
-        généralement à supprimer l'Application et ses données locales sur votre appareil. Pour toute
-        question relative aux messages que vous nous avez envoyés, contactez-nous à
+        Selon votre lieu de résidence (par exemple en vertu du Règlement général sur la protection
+        des données de l'UE), vous pouvez disposer de droits d'accès, de rectification ou
+        d'effacement des données personnelles qui vous concernent. Comme l'Application ne garde vos
+        données que sur votre appareil et dans vos propres sauvegardes, exercer ces droits revient en
+        général à utiliser Réinitialiser les données ou à supprimer l'Application. Votre abonnement et
+        votre historique d'achats sont détenus par Apple ou Google : gérez-les dans votre compte de la
+        boutique. Pour tout ce qui concerne les messages que vous nous avez envoyés, écrivez-nous à
         <a href="mailto:devop88@proton.me">devop88@proton.me</a>.
       </p>
     </section>
 
     <section id="modifications">
-      <h2><span class="num">9</span>Modifications de cette politique</h2>
+      <h2><span class="num">12</span>Modifications de cette politique</h2>
       <p>
         Nous pouvons mettre à jour cette politique de temps à autre. Dans ce cas, nous mettrons à
         jour la « Date d'effet » ci-dessus et publierons la nouvelle version sur cette page.
@@ -172,7 +234,7 @@
     </section>
 
     <section id="contact">
-      <h2><span class="num">10</span>Contact</h2>
+      <h2><span class="num">13</span>Contact</h2>
       <p>
         Questions ou demandes :
         <a href="mailto:devop88@proton.me">devop88@proton.me</a><br>

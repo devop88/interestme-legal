@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>InterestMe — Privacy Policy</title>
-  <meta name="description" content="InterestMe Privacy Policy — the app is fully offline and does not collect, transmit, or store any of your data.">
+  <meta name="description" content="InterestMe Privacy Policy — the app collects none of your data: what you enter stays on your device and in your own phone backup.">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/svg+xml" href="../img/logo.svg">
   <script>
@@ -41,19 +41,19 @@
   <article class="doc-card">
     <header class="doc-header">
       <h1>Privacy Policy</h1>
-      <p class="doc-meta">Effective date: <time datetime="2026-09-11">11 September 2026</time></p>
+      <p class="doc-meta">Effective date: <!-- DRAFT 1.1 (spec 21): set the date when 1.1.0 is released. --><time datetime="2026-00-00">[date of the 1.1.0 release]</time></p>
       <div class="doc-badges">
-        <span class="badge">Fully offline</span>
         <span class="badge">No data collected</span>
         <span class="badge">No account required</span>
+        <span class="badge">No tracking</span>
       </div>
     </header>
 
     <p class="lead">
       This Privacy Policy explains how the InterestMe mobile application (“the App”), published by
-      DevOP, handles your information. It applies to version 1.0.0 of the App. The short version:
-      the App is fully offline and does not collect, transmit, or store any of your data. The
-      details are below.
+      DevOP, handles your information. It applies to version 1.1.0 of the App and later. The short
+      version: the App does not collect any of your data. What you enter stays on your device, and in
+      your phone's own backup if you use one. The details are below.
     </p>
 
     <nav class="toc" aria-label="Table of contents">
@@ -62,6 +62,9 @@
         <li><a href="#who-we-are">Who we are</a></li>
         <li><a href="#short-version">The short version</a></li>
         <li><a href="#on-device">Data stored on your device</a></li>
+        <li><a href="#backups">Your phone's backups</a></li>
+        <li><a href="#purchases">Purchases (InterestMe Pro)</a></li>
+        <li><a href="#reminders">Reminders</a></li>
         <li><a href="#you-send">Information you send us voluntarily</a></li>
         <li><a href="#no-ads">No advertising, analytics or tracking</a></li>
         <li><a href="#third-party">Third-party links</a></li>
@@ -84,32 +87,79 @@
     <section id="short-version">
       <h2><span class="num">2</span>The short version</h2>
       <ul>
-        <li>The App works completely offline. It does not connect to the internet on its own.</li>
         <li>We do not collect, receive, or store any personal data on servers.</li>
         <li>There is no account, no registration, no analytics, no advertising, and no crash reporting.</li>
-        <li>Everything you enter stays on your device.</li>
+        <li>Everything you enter stays on your device, and in your phone's own backup (iCloud, your
+          computer, or Google) if you use one.</li>
+        <li>The App's own code does not connect to the internet. The only connections are made by
+          the App Store or Google Play, to sell and check the optional InterestMe Pro subscription.</li>
+        <li>Check-in reminders are notifications planned on your phone; nothing is sent anywhere.</li>
       </ul>
     </section>
 
     <section id="on-device">
       <h2><span class="num">3</span>Data stored on your device</h2>
       <p>
-        The App stores your input only on your own device, in a local database and local
-        preferences. This may include:
+        The App stores your input only on your own device, in a local database. This may include:
       </p>
       <ul>
-        <li>your name, if you choose to enter it when you first open the App;</li>
-        <li>your saved compound interest simulations and savings goal plans;</li>
-        <li>your preferences (currency, number format, appearance).</li>
+        <li>your name, if you choose to enter it;</li>
+        <li>your saved simulations, plans, loans and comparisons, and your budget;</li>
+        <li>your savings goals and the amounts you log for them each month;</li>
+        <li>your progress in Learn and the amounts you try there;</li>
+        <li>your preferences (currency, number format, appearance, pinned tools, reminders);</li>
+        <li>whether your InterestMe Pro subscription was active the last time the store was asked.</li>
       </ul>
       <p>
-        This data never leaves your device and is never accessible to us or to any third party. If
-        you uninstall the App, this data is deleted with it.
+        The App never sends this data to us or to any third party. You can delete all of it at any
+        time with <strong>Profile → Reset app data</strong> (your subscription is not affected), or
+        by uninstalling the App.
+      </p>
+    </section>
+
+    <section id="backups">
+      <h2><span class="num">4</span>Your phone's backups</h2>
+      <p>
+        If you back up your phone, that backup includes the App's data so that it can come back on
+        a new phone or after a reinstall: iCloud Backup or a computer backup on iPhone and iPad, and
+        Google's backup on Android (which, for the App, includes only its database). These backups
+        are made by Apple or Google under your account with them and their privacy policies; we have
+        no access to them. They do not move data between an iPhone and an Android phone. You can turn
+        them off in your phone's settings.
+      </p>
+      <p>
+        A restored backup never unlocks InterestMe Pro by itself: the App asks the store again.
+      </p>
+    </section>
+
+    <section id="purchases">
+      <h2><span class="num">5</span>Purchases (InterestMe Pro)</h2>
+      <p>
+        InterestMe Pro is an optional subscription sold through the App Store or Google Play. The
+        purchase, the payment and the renewals are handled entirely by Apple or Google, under your
+        account with them and their privacy policies. We never receive your payment details, your
+        name or your email address.
+      </p>
+      <p>
+        To know whether Pro is active, the App asks the store on your device, and keeps the answer on
+        your device. On Android, the Google Play Billing Library included in the App connects to
+        Google Play for this and may send Google diagnostic information about the purchase process.
+        Apple and Google give us sales reports (for example, how many subscriptions were sold in a
+        country) that do not identify you.
+      </p>
+    </section>
+
+    <section id="reminders">
+      <h2><span class="num">6</span>Reminders</h2>
+      <p>
+        If you turn on check-in reminders, the App plans notifications on your phone. Your phone
+        creates and shows them; nothing is sent to us or to a notification service. You can turn
+        them off in the App's Profile or in your phone's settings.
       </p>
     </section>
 
     <section id="you-send">
-      <h2><span class="num">4</span>Information you send us voluntarily</h2>
+      <h2><span class="num">7</span>Information you send us voluntarily</h2>
       <p>
         If you use the feedback feature, or email us directly at
         <a href="mailto:devop88@proton.me">devop88@proton.me</a>, you may send us
@@ -123,15 +173,16 @@
     </section>
 
     <section id="no-ads">
-      <h2><span class="num">5</span>No advertising, analytics or tracking</h2>
+      <h2><span class="num">8</span>No advertising, analytics or tracking</h2>
       <p>
         We do not use advertising, analytics services, crash-reporting tools, or tracking of any
-        kind. The App contains no third-party trackers or SDKs.
+        kind. The App contains no third-party trackers or advertising SDKs. The only third-party code
+        that talks to a service is the stores' billing described above.
       </p>
     </section>
 
     <section id="third-party">
-      <h2><span class="num">6</span>Third-party links</h2>
+      <h2><span class="num">9</span>Third-party links</h2>
       <p>
         The App may open links in your browser (for example, these pages) or your device's email
         application. Those services have their own privacy policies, and we are not responsible for
@@ -140,7 +191,7 @@
     </section>
 
     <section id="children">
-      <h2><span class="num">7</span>Children</h2>
+      <h2><span class="num">10</span>Children</h2>
       <p>
         The App is not directed at children. Because the App does not collect personal data, we do
         not knowingly collect information from children either.
@@ -148,19 +199,20 @@
     </section>
 
     <section id="your-rights">
-      <h2><span class="num">8</span>Your rights</h2>
+      <h2><span class="num">11</span>Your rights</h2>
       <p>
         Depending on where you live (for example, under the EU General Data Protection Regulation),
         you may have rights to access, correct, or delete personal data that relates to you.
-        Because the App itself holds no personal data about you, exercising these rights typically
-        means deleting the App and its local data on your device. For anything related to the
-        messages you have sent us, contact us at
+        Because the App keeps your data only on your device and in your own backups, exercising
+        these rights typically means using Reset app data or deleting the App. Your subscription and
+        purchase history are held by Apple or Google: manage them in your store account. For anything
+        related to the messages you have sent us, contact us at
         <a href="mailto:devop88@proton.me">devop88@proton.me</a>.
       </p>
     </section>
 
     <section id="changes">
-      <h2><span class="num">9</span>Changes to this policy</h2>
+      <h2><span class="num">12</span>Changes to this policy</h2>
       <p>
         We may update this policy from time to time. When we do, we will revise the “Effective date”
         above and post the new version on this page.
@@ -168,7 +220,7 @@
     </section>
 
     <section id="contact">
-      <h2><span class="num">10</span>Contact</h2>
+      <h2><span class="num">13</span>Contact</h2>
       <p>
         Questions or requests: <a href="mailto:devop88@proton.me">devop88@proton.me</a><br>
         Publisher: <strong>DevOP</strong>
